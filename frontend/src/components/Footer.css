@@ -1,0 +1,400 @@
+/* Main Footer Container */
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Constrain footer content width */
+.footer .container {
+    max-width: 1100px !important;
+    /* Force override if needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Promotional Banners Section */
+.promotional-banners {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.promo-banner {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.sarasavi-banner {
+    background-color: #ffb74d;
+    /* Light Orange */
+    background: linear-gradient(135deg, #ffcc80 0%, #ffab40 100%);
+}
+
+.sumitha-banner {
+    background-color: #4db6ac;
+    /* Light Teal */
+    background: linear-gradient(135deg, #80cbc4 0%, #26a69a 100%);
+}
+
+.promo-content {
+    flex: 1;
+    max-width: 60%;
+    z-index: 2;
+}
+
+.promo-content h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.promo-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    opacity: 0.95;
+    font-weight: 500;
+}
+
+.btn-shop {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-shop:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.promo-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.promo-image img {
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    transform: rotate(-10deg);
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+    transition: transform 0.4s;
+}
+
+.promo-banner:hover .promo-image img {
+    transform: rotate(0deg) scale(1.05);
+}
+
+
+/* Feature Banner (Dark Blue Section) */
+.footer-features {
+    background-color: #1a237e;
+    /* Dark Blue from Navbar */
+    color: white;
+    padding: 30px 0;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    opacity: 0.9;
+    color: #4fc3f7;
+    /* Light Blue/Cyan accent for icons */
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.feature-text h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.feature-text p {
+    margin: 4px 0 0;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Main Footer Content */
+.footer-main {
+    background-color: #ffffff;
+    padding: 60px 0;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.footer-section.newsletter {
+    flex: 1.5;
+    min-width: 300px;
+}
+
+.footer-section.newsletter h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #1a237e;
+}
+
+.footer-section.newsletter p {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.subscribe-form {
+    display: flex;
+    max-width: 450px;
+}
+
+.subscribe-form input {
+    flex: 1;
+    padding: 14px 20px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.subscribe-form button {
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.subscribe-form button:hover {
+    background-color: #0d47a1;
+}
+
+/* Links Columns Group */
+.footer-links-group {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column {
+    min-width: 160px;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #1a237e;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 14px;
+}
+
+.footer-column ul li a,
+.footer-column ul li span {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+    line-height: 1.4;
+}
+
+.footer-column ul li a:hover {
+    color: #1a237e;
+    padding-left: 5px;
+}
+
+.footer-column.contact-info ul li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.contact-icon {
+    color: #f50057;
+    /* Pink accent */
+    margin-top: 4px;
+    font-size: 1rem;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+    background-color: #f8f9fa;
+    padding: 25px 0;
+    /* font-size: 0.9rem; */
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 0;
+    /* Removing border/padding unlike previous */
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #e0e0e0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* Circle icons */
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    color: white;
+}
+
+.social-icon.facebook:hover {
+    background: #3b5998;
+}
+
+.social-icon.twitter:hover {
+    background: #1da1f2;
+}
+
+.social-icon.linkedin:hover {
+    background: #0077b5;
+}
+
+.social-icon.pinterest:hover {
+    background: #bd081c;
+}
+
+.social-icon.youtube:hover {
+    background: #ff0000;
+}
+
+.social-icon.instagram:hover {
+    background: #e1306c;
+}
+
+.footer-logo {
+    display: none;
+    /* Hiding separate logo in bottom footer if redundant, or style it */
+}
+
+.payment-methods {
+    display: flex;
+    gap: 10px;
+}
+
+.pay-icon {
+    background: white;
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.copyright {
+    text-align: center;
+    color: #999;
+    background-color: #1a237e;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 0;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .promotional-banners {
+        flex-direction: column;
+    }
+
+    .promo-banner {
+        padding: 40px 20px;
+    }
+
+    .feature-grid {
+        justify-content: center;
+    }
+
+    .feature-item {
+        min-width: 200px;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .promo-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .promo-image img {
+        max-width: 150px;
+    }
+}

@@ -1,0 +1,156 @@
+[
+    {
+        "title": "The Secret of Secrets",
+        "author": "Drran Lwinter",
+        "description": "A thrilling mystery novel about ancient secrets.",
+        "category": "Fiction",
+        "price": 14.99,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "Sarasavi",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Island Life",
+        "author": "Local Author",
+        "description": "A novel about life on a tropical island.",
+        "category": "Fiction",
+        "price": 11.99,
+        "imageUrl": "/images/promo-sarasavi.png",
+        "publisher": "Sarasavi",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "The Happy Tree",
+        "author": "Child's Play",
+        "description": "A wonderful story for kids.",
+        "category": "Children",
+        "price": 8.99,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Sumitha",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Alphabet Adventure",
+        "author": "Kid Learn",
+        "description": "Learn ABCs with fun animals.",
+        "category": "Children",
+        "price": 9.50,
+        "imageUrl": "/images/promo-sarasavi.png",
+        "publisher": "Sarasavi",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Sri Lankan Elephant Tales",
+        "author": "Sahid K",
+        "description": "Stories of the majestic elephants.",
+        "category": "Novels",
+        "price": 12.50,
+        "imageUrl": "/images/promo-sarasavi.png",
+        "publisher": "Sarasavi",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Modern City",
+        "author": "City Writer",
+        "description": "A contemporary novel about urban life.",
+        "category": "Novels",
+        "price": 15.00,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "Other",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Russian Classics",
+        "author": "Tolstoy (Trans)",
+        "description": "Translated works of Russian masters.",
+        "category": "Translations",
+        "price": 18.00,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "Other",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Japanese Tales",
+        "author": "Murakami (Trans)",
+        "description": "Translated short stories from Japan.",
+        "category": "Translations",
+        "price": 16.50,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Morning Coffee",
+        "author": "Shorty Writer",
+        "description": "A collection of 5-minute reads.",
+        "category": "Short Story",
+        "price": 7.99,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Sarasavi",
+        "isFeatured": false,
+        "isRecommended": false
+    },
+    {
+        "title": "Bedtime Tales",
+        "author": "Dreamer",
+        "description": "Perfect short stories for sleep.",
+        "category": "Short Story",
+        "price": 8.50,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Back to School Guide",
+        "author": "Edu Team",
+        "description": "Everything you need for school.",
+        "category": "Education",
+        "price": 9.99,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Sumitha",
+        "isFeatured": true,
+        "isRecommended": true
+    },
+    {
+        "title": "Cosmos & Starlight",
+        "author": "Dr. Astro",
+        "description": "Astronomy for beginners.",
+        "category": "Education",
+        "price": 22.00,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Teen Spirit",
+        "author": "YA Author",
+        "description": "High school drama and romance.",
+        "category": "Young Adult",
+        "price": 11.50,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "Sarasavi",
+        "isFeatured": true,
+        "isRecommended": true
+    },
+    {
+        "title": "Digital Workbook",
+        "author": "Tech Ed",
+        "description": "Downloadable exercises for math.",
+        "category": "Downloads",
+        "price": 5.00,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Other",
+        "isFeatured": false,
+        "isRecommended": false
+    }
+]

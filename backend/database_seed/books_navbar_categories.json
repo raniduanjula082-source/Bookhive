@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Grade 5 Math Toolkit",
+        "author": "EduDept",
+        "description": "Essential math exercises for Grade 5.",
+        "category": "School",
+        "price": 8.50,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "GovPress",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Grade 10 Science",
+        "author": "Dr. Silva",
+        "description": "Comprehensive science textbook.",
+        "category": "School",
+        "price": 12.00,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Sarasavi",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "BookHive Annual Journal",
+        "author": "BookHive Team",
+        "description": "Our yearly collection of best articles.",
+        "category": "Publications",
+        "price": 20.00,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "BookHive",
+        "isFeatured": true,
+        "isRecommended": true
+    },
+    {
+        "title": "The Little Bear",
+        "author": "A. Milne",
+        "description": "Classic children's story.",
+        "category": "Children",
+        "price": 7.00,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Cambridge Primary English",
+        "author": "Cambridge Press",
+        "description": "International curriculum english book.",
+        "category": "International",
+        "price": 35.00,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Cambridge",
+        "isFeatured": true,
+        "isRecommended": true
+    },
+    {
+        "title": "Oxford Math 4A",
+        "author": "Oxford Press",
+        "description": "International math workbook.",
+        "category": "International",
+        "price": 32.00,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Oxford",
+        "isFeatured": false,
+        "isRecommended": false
+    },
+    {
+        "title": "Digital Marketing Guide (E-Book)",
+        "author": "Tech Guru",
+        "description": "Mavericks of digital world.",
+        "category": "E-Books",
+        "price": 15.00,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "TechPress",
+        "isFeatured": false,
+        "isRecommended": true
+    }
+]

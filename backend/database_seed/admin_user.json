@@ -1,0 +1,13 @@
+[
+    {
+        "username": "admin",
+        "email": "admin@bookhive.com",
+        "password": "hashed_password_placeholder",
+        "roles": [
+            {
+                "name": "ROLE_ADMIN"
+            }
+        ],
+        "note": "Use the DataInitializer (backend auto-creation) to generate the admin user with valid password 'admin123'. Do NOT import this JSON directly if you want login to work immediately."
+    }
+]

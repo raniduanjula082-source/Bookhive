@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Colombo Main Branch",
+        "address": "123 Galle Road, Colombo 03",
+        "phone": "+94 11 222 3333",
+        "email": "colombo@bookhive.com",
+        "hours": "9:00 AM - 8:00 PM"
+    },
+    {
+        "name": "Kandy City Center",
+        "address": "45 Dalada Veediya, Kandy",
+        "phone": "+94 81 222 4444",
+        "email": "kandy@bookhive.com",
+        "hours": "10:00 AM - 7:00 PM"
+    },
+    {
+        "name": "Galle Fort Store",
+        "address": "10 Church Street, Galle Fort",
+        "phone": "+94 91 222 5555",
+        "email": "galle@bookhive.com",
+        "hours": "9:00 AM - 6:00 PM"
+    }
+]

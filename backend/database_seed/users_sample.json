@@ -1,0 +1,22 @@
+[
+    {
+        "username": "admin",
+        "email": "admin@bookhive.com",
+        "password": "hashed_password_placeholder",
+        "roles": [
+            {
+                "name": "ROLE_ADMIN"
+            }
+        ]
+    },
+    {
+        "username": "user",
+        "email": "user@bookhive.com",
+        "password": "hashed_password_placeholder",
+        "roles": [
+            {
+                "name": "ROLE_USER"
+            }
+        ]
+    }
+]

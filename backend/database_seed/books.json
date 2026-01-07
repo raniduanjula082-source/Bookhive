@@ -1,0 +1,68 @@
+[
+    {
+        "title": "The Secret of Secrets",
+        "author": "Drran Lwinter",
+        "description": "A thrilling mystery novel about ancient secrets.",
+        "category": "Fiction",
+        "price": 14.99,
+        "imageUrl": "/images/hero-slide-1.png",
+        "publisher": "Sarasavi",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Back to School Guide",
+        "author": "Edu Team",
+        "description": "Everything you need for a successful school year.",
+        "category": "Education",
+        "price": 9.99,
+        "imageUrl": "/images/hero-slide-2.png",
+        "publisher": "Sumitha",
+        "isFeatured": true,
+        "isRecommended": true
+    },
+    {
+        "title": "Sri Lankan Elephant Tales",
+        "author": "Sahid K",
+        "description": "Stories of the majestic elephants of Sri Lanka.",
+        "category": "Novels",
+        "price": 12.50,
+        "imageUrl": "/images/promo-sarasavi.png",
+        "publisher": "Sarasavi",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "The Living Earth",
+        "author": "Nature Press",
+        "description": "An educational journey through our planet's ecosystems.",
+        "category": "Education",
+        "price": 25.00,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": false,
+        "isRecommended": true
+    },
+    {
+        "title": "Cosmos & Starlight",
+        "author": "Dr. Astro",
+        "description": "Explore the universe from your backyard.",
+        "category": "Education",
+        "price": 22.00,
+        "imageUrl": "/images/promo-sumitha.png",
+        "publisher": "Sumitha",
+        "isFeatured": true,
+        "isRecommended": false
+    },
+    {
+        "title": "Island Life",
+        "author": "Local Author",
+        "description": "A novel about life on a tropical island.",
+        "category": "Fiction",
+        "price": 11.99,
+        "imageUrl": "/images/promo-sarasavi.png",
+        "publisher": "Sarasavi",
+        "isFeatured": false,
+        "isRecommended": true
+    }
+]

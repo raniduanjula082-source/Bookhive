@@ -1,0 +1,18 @@
+[
+    {
+        "bookTitle": "Advanced Physics 2024",
+        "author": "Prof. Hawking",
+        "requestedBy": "student@example.com",
+        "phone": "+94 77 123 1234",
+        "status": "PENDING",
+        "requestDate": "2024-12-25T10:00:00.000Z"
+    },
+    {
+        "bookTitle": "Harry Potter Special Edition",
+        "author": "J.K. Rowling",
+        "requestedBy": "user@gmail.com",
+        "phone": "+94 71 555 6666",
+        "status": "FULFILLED",
+        "requestDate": "2024-12-20T14:30:00.000Z"
+    }
+]

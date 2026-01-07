@@ -1,0 +1,261 @@
+/* Header Container */
+.header-container {
+    font-family: 'Poppins', sans-serif;
+    /* or existing global font */
+    width: 100%;
+}
+
+/* 1. Top Bar */
+.top-bar {
+    background-color: #1a237e;
+    /* Dark Blue */
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 8px 0;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-contact {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.separator {
+    color: #ffffff88;
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-link,
+.btn-logout-text {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 0.85rem;
+    font-family: inherit;
+    padding: 0;
+}
+
+.top-link:hover,
+.btn-logout-text:hover {
+    text-decoration: underline;
+}
+
+.user-menu-top {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.currency-selector {
+    border-left: 1px solid #ffffff88;
+    padding-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 2. Middle Header */
+.middle-header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.middle-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.navbar-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.navbar-logo .logo-icon {
+    display: none;
+    /* Hiding icon in favor of layout if needed, or keep it */
+    /* If you want the icon next to text: */
+    /* display: inline-block; */
+    /* font-size: 2rem; */
+    /* color: #1a237e; */
+}
+
+/* Custom logo layout to match text "sarasavi THE BOOKSHOP" style */
+.brand-name {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a237e;
+    text-transform: lowercase;
+}
+
+.brand-tagline {
+    font-size: 0.7rem;
+    color: #1a237e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home-icon-link {
+    font-size: 1.5rem;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.home-icon-link:hover {
+    color: #1a237e;
+}
+
+.search-bar-main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+
+.search-bar-main input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.search-bar-main input:focus {
+    border-color: #00bcd4;
+}
+
+.search-btn {
+    background-color: #00bcd4;
+    /* Teal/Cyan */
+    border: none;
+    padding: 10px 20px;
+    /* Adjust padding to match height ~40px */
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    /* Match input height roughly */
+}
+
+.search-btn:hover {
+    background-color: #00acc1;
+}
+
+.header-icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: column;
+    /* Icon above text or just icon? Image shows widely spaced icons likely with labels or just icons */
+    /* Let's keep just icons with badges for now like typical ecommerce */
+    position: relative;
+    color: #555;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #eee;
+    color: #333;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3. Bottom Navigation */
+.bottom-nav {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.bottom-nav-content {
+    display: flex;
+    justify-content: center;
+    /* or flex-start based on preference */
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1px;
+    /* Gap handled by padding */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Distribute items evenly or justify? Image looks evenly spaced/justified */
+.nav-menu {
+    justify-content: space-between;
+}
+
+.nav-menu li {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #eaeaea;
+}
+
+.nav-menu li:last-child {
+    border-right: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #444;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #eaeaea;
+    color: #000;
+}
+
+/* Helper Class */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

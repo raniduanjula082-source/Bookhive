@@ -1,0 +1,26 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:library >-------------------------
+[INFO] Building library 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-mongodb/3.1.5/spring-boot-starter-mongodb-3.1.5.pom
+[WARNING] The POM for org.springframework.boot:spring-boot-starter-mongodb:jar:3.1.5 is missing, no dependency information available
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-mongodb/3.1.5/spring-boot-starter-mongodb-3.1.5.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.742 s
+[INFO] Finished at: 2025-12-24T19:51:42+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project library: Could not resolve dependencies for project com.example:library:jar:0.0.1-SNAPSHOT
+[ERROR] dependency: org.springframework.boot:spring-boot-starter-mongodb:jar:3.1.5 (compile)
+[ERROR] 	Could not find artifact org.springframework.boot:spring-boot-starter-mongodb:jar:3.1.5 in central (https://repo.maven.apache.org/maven2)
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
